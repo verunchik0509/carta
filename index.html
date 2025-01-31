@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sizes">
+  <label>
+    <input type="radio" name="size" value="l" checked onchange='onChange(this'>
+    Size L
+  </label>
+  <label>
+    <input type="radio" name="size" value="m" onchange='onChange(this)'>
+    Size M
+  </label>
+  <label>
+    <input type="radio" name="size" value="s" onchange='onChange(this)'>
+    Size S
+  </label>
+</div>
+<div class="card size_l" id="card">
+  <img src="https://img.dmclk.ru/vitrina/owner/bd/26/bd264b5dfaaa498795b8ffc9ed7a731b.jpg" class="photo">
+  <div class="info">
+    <h3>Студия</h3>
+    <p>🗺&nbsp; Удобное расположение</p>
+    <p>🚇&nbsp; Ближайшая станция метро</p>
+  </div>
+  <div class="price" contenteditable="true">
+    💲 1 600 в месяц
+  </div>
+  <div class="description">
+    Квартира-студия — это однокомнатное жилье, в котором нет перегородок между спальней, кухней и гостиной. Создано единое пространство для проживания. 
+  </div>
+  <div class="actions">
+    <button type="button">📞</button>
+    <button type="button">❤️</button>
+  </div>
+  <div class="date" contenteditable="true">
+    yesterday
+  </div>
+</div>
+</body>
+</html>
